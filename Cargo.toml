@@ -1,0 +1,8 @@
+[package]
+name = "extract_validity_period"
+version = "0.1.0"
+authors = ["nlehuby"]
+
+[dependencies]
+rustc-serialize = "0.3"
+csv = "0.14.7"
