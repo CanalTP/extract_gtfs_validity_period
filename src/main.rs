@@ -49,6 +49,7 @@ fn main() {
         }
 
     }
+    //TODO : calendar.txt is required, but can be empty : this use case is not handled for now
 
     let calendar_min_start_date: &u32 = start_dates.iter().min().unwrap();
     let calendar_max_end_date: &u32 = end_dates.iter().max().unwrap();
