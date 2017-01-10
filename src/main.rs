@@ -26,13 +26,13 @@ fn main() {
     let path = "calendar.txt";
     let mut reader =  csv::Reader::from_file(path).unwrap().has_headers(true);
 
-    let mut start_dates: Vec<u32> = vec![402112300];// to prevent the use of possibly uninitialized `start_dates`
-    let mut end_dates: Vec<u32> = vec![0];
+    let mut validity_start_date: u32 = u32::max_value();
+    let mut validity_end_date: u32 = u32::min_value();
 
     for row in reader.decode() {
         let a_calendar: Calendar = row.unwrap();
-        start_dates.push(a_calendar.start_date);
-        end_dates.push(a_calendar.end_date);
+        validity_start_date = std::cmp::min(validity_start_date, a_calendar.start_date);
+        validity_end_date = std::cmp::max(validity_end_date, a_calendar.end_date);
     }
 
     let path = "calendar_dates.txt";
@@ -45,15 +45,11 @@ fn main() {
         // but we do not shrink it with exception dates removed.
         // https://github.com/google/transitfeed/blob/master/transitfeed/serviceperiod.py#L80
         if a_calendar_date.exception_type == 1 {
-            end_dates.push(a_calendar_date.date);
+            validity_start_date = std::cmp::min(validity_start_date, a_calendar_date.date);
+            validity_end_date = std::cmp::max(validity_end_date, a_calendar_date.date);
         }
-
     }
-    //TODO : calendar.txt is required, but can be empty : this use case is not handled for now
 
-    let calendar_min_start_date: &u32 = start_dates.iter().min().unwrap();
-    let calendar_max_end_date: &u32 = end_dates.iter().max().unwrap();
-
-    println!("start : {}", calendar_min_start_date );
-    println!("end : {}", calendar_max_end_date );
+    println!("start : {}", validity_start_date );
+    println!("end : {}", validity_end_date );
 }
