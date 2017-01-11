@@ -22,7 +22,7 @@ struct CalendarDate {
     exception_type: u32,
 }
 
-pub fn get_period_from_txt_files() {
+pub fn get_period_from_txt_files() -> (u32, u32){
     let path = "calendar.txt";
     let mut reader =  csv::Reader::from_file(path).unwrap().has_headers(true);
 
@@ -50,6 +50,5 @@ pub fn get_period_from_txt_files() {
         }
     }
 
-    println!("start : {}", validity_start_date );
-    println!("end : {}", validity_end_date );
+    (validity_start_date, validity_end_date)
 }
