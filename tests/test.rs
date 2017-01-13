@@ -3,12 +3,12 @@ extern crate extract_validity_period;
 fn test_wrapper(path_to_txt:&str, expected_result:(u32,u32)) {
     let init_path = std::env::current_dir().unwrap();
     let test_path = std::path::Path::new(path_to_txt);
-    assert!(std::env::set_current_dir(&test_path).is_ok());
+    std::env::set_current_dir(&test_path).unwrap();
 
     let result = extract_validity_period::get_period_from_txt_files();
     assert_eq!(result, expected_result);
 
-    assert!(std::env::set_current_dir(&init_path).is_ok());
+    std::env::set_current_dir(&init_path).unwrap();
 }
 
 #[test]
