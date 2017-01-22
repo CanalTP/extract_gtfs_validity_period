@@ -1,6 +1,6 @@
 extern crate extract_validity_period;
 
-fn test_wrapper(path_to_txt:&str, expected_result:(u32,u32)) {
+fn test_wrapper(path_to_txt: &str, expected_result: (u32, u32)) {
     let init_path = std::env::current_dir().unwrap();
     let test_path = std::path::Path::new(path_to_txt);
     std::env::set_current_dir(&test_path).unwrap();
