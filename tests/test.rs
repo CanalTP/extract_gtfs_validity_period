@@ -32,13 +32,11 @@ fn test_empty_calendar_dates() {
 }
 
 #[test]
-#[ignore]
 fn test_just_calendar_dates() {
-    test_wrapper("tests/fixtures/no_calendar", (20161125, 20171124))
+    test_wrapper("tests/fixtures/no_calendar", (20160714, 20161226))
 }
 
 #[test]
-#[ignore]
 fn test_just_calendar() {
-    test_wrapper("tests/fixtures/no_calendar_dates", (20161125, 20171124))
+    test_wrapper("tests/fixtures/no_calendar_dates", (20161107, 20170205))
 }
