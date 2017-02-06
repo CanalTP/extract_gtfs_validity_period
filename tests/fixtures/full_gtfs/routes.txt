@@ -1,0 +1,3 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+"1","1","1","Métro ligne 1","CHR B Calmette <> 4 Cantons Stade Pierre Mauroy","1","http://www.transpole.fr/horaire.aspx?l=horaires_Ligne1","EFCE31",""
+"2","1","2","Métro ligne 2", "Lomme St Philibert <> Tourcoing C.H. Dron", "1", "http://www.transpole.fr/horaire.aspx?l=horaires_Ligne2", "E10B24", ""

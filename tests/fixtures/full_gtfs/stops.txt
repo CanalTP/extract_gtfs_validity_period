@@ -1,0 +1,119 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding
+1011,1011,C.H.R. B-Calmette,Lille,50.607923,3.039135,,,0,CTP1011,,1
+CTP1011,1011,C.H.R. B-Calmette,Lille,50.607923,3.039135,,,1,,,1
+1012,1012,C.H.R. Oscar Lambret,Lille,50.613314,3.036560,,,0,CTP1012,,1
+CTP1012,1012,C.H.R. Oscar Lambret,Lille,50.613314,3.036560,,,1,,,1
+1013,1013,Porte des Postes,Lille,50.618584,3.050218,,,0,CTP1013,,1
+CTP1013,1013,Porte des Postes,Lille,50.618584,3.050218,,,1,,,1
+1014,1014,Wazemmes,Lille,50.623353,3.051444,,,0,CTP1014,,1
+CTP1014,1014,Wazemmes,Lille,50.623353,3.051444,,,1,,,1
+1015,1015,Gambetta,Lille,50.626388,3.052243,,,0,CTP1015,,1
+CTP1015,1015,Gambetta,Lille,50.626388,3.052243,,,1,,,1
+1016,1016,République - Beaux Arts,Lille,50.631497,3.060276,,,0,CTP1016,,1
+CTP1016,1016,République - Beaux Arts,Lille,50.631497,3.060276,,,1,,,1
+1017,1017,Rihour,Lille,50.635809,3.063028,,,0,CTP1017,,1
+CTP1017,1017,Rihour,Lille,50.635809,3.063028,,,1,,,1
+1018,1018,Gare Lille Flandres,Lille,50.637127,3.070936,,,0,CTP1018,,1
+CTP1018,1018,Gare Lille Flandres,Lille,50.637127,3.070936,,,1,,,1
+1019,1019,Caulier,Lille,50.636632,3.087296,,,0,CTP1019,,1
+CTP1019,1019,Caulier,Lille,50.636632,3.087296,,,1,,,1
+10110,10110,Fives,Lille,50.633171,3.090551,,,0,CTP10110,,1
+CTP10110,10110,Fives,Lille,50.633171,3.090551,,,1,,,1
+10111,10111,Marbrerie,Lille,50.630359,3.097573,,,0,CTP10111,,1
+CTP10111,10111,Marbrerie,Lille,50.630359,3.097573,,,1,,,1
+10112,10112,Hellemmes,Lille,50.627178,3.109174,,,0,CTP10112,,1
+CTP10112,10112,Hellemmes,Lille,50.627178,3.109174,,,1,,,1
+10113,10113,Lezennes,Lille,50.625027,3.116234,,,0,CTP10113,,1
+CTP10113,10113,Lezennes,Lille,50.625027,3.116234,,,1,,,1
+10114,10114,Pont de Bois,"Villeneuve-d'Ascq",50.624247,3.128499,,,0,CTP10114,,1
+CTP10114,10114,Pont de Bois,"Villeneuve-d'Ascq",50.624247,3.128499,,,1,,,1
+10115,10115,"Villeneuve d'Ascq Hôtel de Ville","Villeneuve-d'Ascq",50.619191,3.130709,,,0,CTP10115,,1
+CTP10115,10115,"Villeneuve d'Ascq Hôtel de Ville","Villeneuve-d'Ascq",50.619191,3.130709,,,1,,,1
+10116,10116,Triolo,"Villeneuve-d'Ascq",50.616858,3.140666,,,0,CTP10116,,1
+CTP10116,10116,Triolo,"Villeneuve-d'Ascq",50.616858,3.140666,,,1,,,1
+10117,10117,Cité Scientifique Pr. Gabillard,"Villeneuve-d'Ascq",50.611573,3.142492,,,0,CTP10117,,1
+CTP10117,10117,Cité Scientifique Pr. Gabillard,"Villeneuve-d'Ascq",50.611573,3.142492,,,1,,,1
+10118,10118,4 Cantons Stade Pierre Mauroy,"Villeneuve-d'Ascq",50.605271,3.139013,,,0,CTP10118,,1
+CTP10118,10118,4 Cantons Stade Pierre Mauroy,"Villeneuve-d'Ascq",50.605271,3.139013,,,1,,,1
+1021,1021,Lomme St Philibert,Lomme,50.652080,2.974350,,,0,CTP1021,,1
+CTP1021,1021,Lomme St Philibert,Lomme,50.652080,2.974350,,,1,,,1
+1022,1022,Bourg,Lomme,50.645695,2.985192,,,0,CTP1022,,1
+CTP1022,1022,Bourg,Lomme,50.645695,2.985192,,,1,,,1
+1023,1023,Maison des Enfants,Lille,50.646215,2.994860,,,0,CTP1023,,1
+CTP1023,1023,Maison des Enfants,Lille,50.646215,2.994860,,,1,,,1
+1024,1024,Mitterie,Lille,50.646745,3.007327,,,0,CTP1024,,1
+CTP1024,1024,Mitterie,Lille,50.646745,3.007327,,,1,,,1
+1025,1025,Pont Supérieur,Lille,50.644268,3.013936,,,0,CTP1025,,1
+CTP1025,1025,Pont Supérieur,Lille,50.644268,3.013936,,,1,,,1
+1026,1026,Lomme-Lambersart,Lambersart,50.640770,3.018592,,,0,CTP1026,,1
+CTP1026,1026,Lomme-Lambersart,Lambersart,50.640770,3.018592,,,1,,,1
+1027,1027,Canteleu,Lille,50.637111,3.024636,,,0,CTP1027,,1
+CTP1027,1027,Canteleu,Lille,50.637111,3.024636,,,1,,,1
+1028,1028,Bois Blancs,Lille,50.634127,3.030569,,,0,CTP1028,,1
+CTP1028,1028,Bois Blancs,Lille,50.634127,3.030569,,,1,,,1
+1029,1029,Port de Lille,Lille,50.629894,3.035654,,,0,CTP1029,,1
+CTP1029,1029,Port de Lille,Lille,50.629894,3.035654,,,1,,,1
+10210,10210,Cormontaigne,Lille,50.626177,3.040139,,,0,CTP10210,,1
+CTP10210,10210,Cormontaigne,Lille,50.626177,3.040139,,,1,,,1
+10211,10211,Montebello,Lille,50.622052,3.045439,,,0,CTP10211,,1
+CTP10211,10211,Montebello,Lille,50.622052,3.045439,,,1,,,1
+10213,10213,"Porte d'Arras",Lille,50.617409,3.062197,,,0,CTP10213,,1
+CTP10213,10213,"Porte d'Arras",Lille,50.617409,3.062197,,,1,,,1
+10214,10214,Porte de Douai,Lille,50.617831,3.072175,,,0,CTP10214,,1
+CTP10214,10214,Porte de Douai,Lille,50.617831,3.072175,,,1,,,1
+10215,10215,Porte de valenciennes,Lille,50.621030,3.078805,,,0,CTP10215,,1
+CTP10215,10215,Porte de valenciennes,Lille,50.621030,3.078805,,,1,,,1
+10216,10216,Lille Grand Palais,Lille,50.629592,3.075007,,,0,CTP10216,,1
+CTP10216,10216,Lille Grand Palais,Lille,50.629592,3.075007,,,1,,,1
+10217,10217,Mairie de Lille,Lille,50.632572,3.070608,,,0,CTP10217,,1
+CTP10217,10217,Mairie de Lille,Lille,50.632572,3.070608,,,1,,,1
+10218,10218,Gare Lille Europe,Lille,50.639308,3.076208,,,0,CTP10218,,1
+CTP10218,10218,Gare Lille Europe,Lille,50.639308,3.076208,,,1,,,1
+10219,10219,St. Maurice Pellevoisin,Lille,50.642369,3.088889,,,0,CTP10219,,1
+CTP10219,10219,St. Maurice Pellevoisin,Lille,50.642369,3.088889,,,1,,,1
+10220,10220,Mons Sarts,Mons-en-Barœul,50.642028,3.099081,,,0,CTP10220,,1
+CTP10220,10220,Mons Sarts,Mons-en-Barœul,50.642028,3.099081,,,1,,,1
+10221,10221,Mairie de Mons,Mons-en-Barœul,50.642243,3.109819,,,0,CTP10221,,1
+CTP10221,10221,Mairie de Mons,Mons-en-Barœul,50.642243,3.109819,,,1,,,1
+10222,10222,Fort de Mons,Mons-en-Barœul,50.642038,3.119496,,,0,CTP10222,,1
+CTP10222,10222,Fort de Mons,Mons-en-Barœul,50.642038,3.119496,,,1,,,1
+10223,10223,Les prés,"Villeneuve-d'Ascq",50.649997,3.126641,,,0,CTP10223,,1
+CTP10223,10223,Les prés,"Villeneuve-d'Ascq",50.649997,3.126641,,,1,,,1
+10224,10224,Jean Jaurès,"Villeneuve-d'Ascq",50.658417,3.135117,,,0,CTP10224,,1
+CTP10224,10224,Jean Jaurès,"Villeneuve-d'Ascq",50.658417,3.135117,,,1,,,1
+10225,10225,Wasquehal Pavé de Lille,Wasquehal,50.663916,3.129788,,,0,CTP10225,,1
+CTP10225,10225,Wasquehal Pavé de Lille,Wasquehal,50.663916,3.129788,,,1,,,1
+10226,10226,Wasquehal Hôtel de Ville,Wasquehal,50.669641,3.131440,,,0,CTP10226,,1
+CTP10226,10226,Wasquehal Hôtel de Ville,Wasquehal,50.669641,3.131440,,,1,,,1
+10227,10227,Croix-Centre,Croix,50.674604,3.146139,,,0,CTP10227,,1
+CTP10227,10227,Croix-Centre,Croix,50.674604,3.146139,,,1,,,1
+10228,10228,Croix Mairie,Croix,50.679159,3.156074,,,0,CTP10228,,1
+CTP10228,10228,Croix Mairie,Croix,50.679159,3.156074,,,1,,,1
+10229,10229,Epeule Montesquieu,Roubaix,50.684017,3.163550,,,0,CTP10229,,1
+CTP10229,10229,Epeule Montesquieu,Roubaix,50.684017,3.163550,,,1,,,1
+10230,10230,Roubaix Charles de Gaulle,Roubaix,50.686817,3.169751,,,0,CTP10230,,1
+CTP10230,10230,Roubaix Charles de Gaulle,Roubaix,50.686817,3.169751,,,1,,,1
+10231,10231,Eurotéléport,Roubaix,50.691112,3.179622,,,0,CTP10231,,1
+CTP10231,10231,Eurotéléport,Roubaix,50.691112,3.179622,,,1,,,1
+10232,10232,Roubaix Grand Place,Roubaix,50.691642,3.174537,,,0,CTP10232,,1
+CTP10232,10232,Roubaix Grand Place,Roubaix,50.691642,3.174537,,,1,,,1
+10233,10233,Gare Jean Lebas,Roubaix,50.695447,3.164023,,,0,CTP10233,,1
+CTP10233,10233,Gare Jean Lebas,Roubaix,50.695447,3.164023,,,1,,,1
+10234,10234,Alsace,Roubaix,50.700543,3.161126,,,0,CTP10234,,1
+CTP10234,10234,Alsace,Roubaix,50.700543,3.161126,,,1,,,1
+10235,10235,Mercure,Tourcoing,50.704687,3.160632,,,0,CTP10235,,1
+CTP10235,10235,Mercure,Tourcoing,50.704687,3.160632,,,1,,,1
+10236,10236,Carliers,Tourcoing,50.710822,3.159908,,,0,CTP10236,,1
+CTP10236,10236,Carliers,Tourcoing,50.710822,3.159908,,,1,,,1
+10237,10237,Tourcoing Sébastopol,Tourcoing,50.716677,3.162633,,,0,CTP10237,,1
+CTP10237,10237,Tourcoing Sébastopol,Tourcoing,50.716677,3.162633,,,1,,,1
+10238,10238,Tourcoing Centre,Tourcoing,50.721024,3.159929,,,0,CTP10238,,1
+CTP10238,10238,Tourcoing Centre,Tourcoing,50.721024,3.159929,,,1,,,1
+10239,10239,Colbert,Tourcoing,50.725547,3.156646,,,0,CTP10239,,1
+CTP10239,10239,Colbert,Tourcoing,50.725547,3.156646,,,1,,,1
+10240,10240,Phalempins,Tourcoing,50.732351,3.157783,,,0,CTP10240,,1
+CTP10240,10240,Phalempins,Tourcoing,50.732351,3.157783,,,1,,,1
+10241,10241,Pont de Neuville,Tourcoing,50.736819,3.170851,,,0,CTP10241,,1
+CTP10241,10241,Pont de Neuville,Tourcoing,50.736819,3.170851,,,1,,,1
+10242,10242,Bourgogne,Tourcoing,50.739385,3.179670,,,0,CTP10242,,1
+CTP10242,10242,Bourgogne,Tourcoing,50.739385,3.179670,,,1,,,1
