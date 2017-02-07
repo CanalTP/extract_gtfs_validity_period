@@ -28,8 +28,8 @@ pub fn get_period_from_txt_files() -> (u32, u32) {
 
     let path = "calendar.txt";
     let cal = csv::Reader::from_file(path);
-    if cal.is_ok() {
-        let mut reader = cal.unwrap().has_headers(true);
+    if let Ok(cal) = cal {
+        let mut reader = cal.has_headers(true);
         for row in reader.decode() {
             let a_calendar: Calendar = row.unwrap();
             validity_start_date = std::cmp::min(validity_start_date, a_calendar.start_date);
@@ -39,8 +39,8 @@ pub fn get_period_from_txt_files() -> (u32, u32) {
 
     let path = "calendar_dates.txt";
     let cal = csv::Reader::from_file(path);
-    if cal.is_ok() {
-        let mut reader = cal.unwrap().has_headers(true);
+    if let Ok(cal) = cal {
+        let mut reader = cal.has_headers(true);
         for row in reader.decode() {
             let a_calendar_date: CalendarDate = row.unwrap();
 
