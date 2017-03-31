@@ -1,4 +1,8 @@
+#[macro_use]
+extern crate pretty_assertions;
 extern crate extract_validity_period;
+
+
 
 fn test_wrapper(path_to_txt: &str, expected_result: (u32, u32)) {
     let init_path = std::env::current_dir().unwrap();
